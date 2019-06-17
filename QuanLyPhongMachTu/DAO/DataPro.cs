@@ -14,7 +14,8 @@ namespace DAO
         private string connectionSTR;// = @"Data Source=DESKTOP-HLJNT2J\SQLEXPRESS;Initial Catalog=QLKB;Integrated Security=True";//gan chuoi ket noi vo connectionSTR
         public DataPro()
         {
-            connectionSTR = ConfigurationManager.AppSettings["ConnectionString"];
+            //connectionSTR = ConfigurationManager.AppSettings["ConnectionString"];
+            connectionSTR = "Data Source=DESKTOP-5OKJGCO;Initial Catalog=QLKB;Integrated Security=True";
         }
         public string ConnectionSTR
         {

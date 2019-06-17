@@ -15,7 +15,8 @@ namespace DAO
         private string connectionString;
         public GhiKQVaoPKDAO()
         {
-            connectionString = ConfigurationManager.AppSettings["ConnectionString"];
+            //connectionString = ConfigurationManager.AppSettings["ConnectionString"];
+            connectionString = "Data Source=DESKTOP-5OKJGCO;Initial Catalog=QLKB;Integrated Security=True";
         }
         public string ConnectionString
         {
