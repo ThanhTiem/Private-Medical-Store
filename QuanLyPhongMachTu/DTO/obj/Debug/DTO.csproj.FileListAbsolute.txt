@@ -66,3 +66,12 @@ C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\DTO\obj\Deb
 C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
 C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe.config
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\bin\Debug\DTO.pdb
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\obj\Debug\DTO.Properties.Resources.resources
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb

@@ -91,7 +91,7 @@
             // lblKetQua
             // 
             this.lblKetQua.AutoSize = true;
-            this.lblKetQua.Location = new System.Drawing.Point(395, 61);
+            this.lblKetQua.Location = new System.Drawing.Point(389, 58);
             this.lblKetQua.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblKetQua.Name = "lblKetQua";
             this.lblKetQua.Size = new System.Drawing.Size(80, 19);
@@ -101,7 +101,7 @@
             // lblCachDung
             // 
             this.lblCachDung.AutoSize = true;
-            this.lblCachDung.Location = new System.Drawing.Point(14, 221);
+            this.lblCachDung.Location = new System.Drawing.Point(19, 289);
             this.lblCachDung.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblCachDung.Name = "lblCachDung";
             this.lblCachDung.Size = new System.Drawing.Size(101, 19);
@@ -115,13 +115,13 @@
             this.cbbTenThuoc.Location = new System.Drawing.Point(148, 153);
             this.cbbTenThuoc.Margin = new System.Windows.Forms.Padding(5);
             this.cbbTenThuoc.Name = "cbbTenThuoc";
-            this.cbbTenThuoc.Size = new System.Drawing.Size(478, 27);
+            this.cbbTenThuoc.Size = new System.Drawing.Size(343, 27);
             this.cbbTenThuoc.TabIndex = 5;
             // 
             // lblSoLuong
             // 
             this.lblSoLuong.AutoSize = true;
-            this.lblSoLuong.Location = new System.Drawing.Point(14, 275);
+            this.lblSoLuong.Location = new System.Drawing.Point(19, 220);
             this.lblSoLuong.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblSoLuong.Name = "lblSoLuong";
             this.lblSoLuong.Size = new System.Drawing.Size(93, 19);
@@ -138,15 +138,15 @@
             // 
             // nudSoLuong
             // 
-            this.nudSoLuong.Location = new System.Drawing.Point(148, 273);
+            this.nudSoLuong.Location = new System.Drawing.Point(148, 218);
             this.nudSoLuong.Margin = new System.Windows.Forms.Padding(5);
             this.nudSoLuong.Name = "nudSoLuong";
-            this.nudSoLuong.Size = new System.Drawing.Size(478, 26);
+            this.nudSoLuong.Size = new System.Drawing.Size(343, 26);
             this.nudSoLuong.TabIndex = 7;
             // 
             // txtKetQua
             // 
-            this.txtKetQua.Location = new System.Drawing.Point(470, 58);
+            this.txtKetQua.Location = new System.Drawing.Point(470, 53);
             this.txtKetQua.Margin = new System.Windows.Forms.Padding(5);
             this.txtKetQua.Name = "txtKetQua";
             this.txtKetQua.Size = new System.Drawing.Size(156, 26);
@@ -154,37 +154,37 @@
             // 
             // txtCachDung
             // 
-            this.txtCachDung.Location = new System.Drawing.Point(148, 214);
+            this.txtCachDung.Location = new System.Drawing.Point(148, 286);
             this.txtCachDung.Margin = new System.Windows.Forms.Padding(5);
             this.txtCachDung.Name = "txtCachDung";
-            this.txtCachDung.Size = new System.Drawing.Size(478, 26);
+            this.txtCachDung.Size = new System.Drawing.Size(343, 26);
             this.txtCachDung.TabIndex = 6;
             // 
             // btnNhapKQ
             // 
-            this.btnNhapKQ.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnNhapKQ.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnNhapKQ.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnNhapKQ.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnNhapKQ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNhapKQ.Location = new System.Drawing.Point(470, 109);
+            this.btnNhapKQ.Location = new System.Drawing.Point(520, 89);
             this.btnNhapKQ.Margin = new System.Windows.Forms.Padding(5);
             this.btnNhapKQ.Name = "btnNhapKQ";
-            this.btnNhapKQ.Size = new System.Drawing.Size(156, 32);
+            this.btnNhapKQ.Size = new System.Drawing.Size(106, 34);
             this.btnNhapKQ.TabIndex = 4;
-            this.btnNhapKQ.Text = "Nhập KQ";
+            this.btnNhapKQ.Text = "Ghi kết quả";
             this.btnNhapKQ.UseVisualStyleBackColor = false;
             this.btnNhapKQ.Click += new System.EventHandler(this.btnNhapKQ_Click);
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnThem.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnThem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnThem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThem.Location = new System.Drawing.Point(77, 330);
+            this.btnThem.Location = new System.Drawing.Point(559, 149);
             this.btnThem.Margin = new System.Windows.Forms.Padding(5);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(125, 33);
+            this.btnThem.Size = new System.Drawing.Size(67, 26);
             this.btnThem.TabIndex = 8;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
@@ -192,25 +192,26 @@
             // 
             // dgvCTTT
             // 
+            this.dgvCTTT.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvCTTT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCTTT.Location = new System.Drawing.Point(14, 373);
+            this.dgvCTTT.Location = new System.Drawing.Point(14, 349);
             this.dgvCTTT.Margin = new System.Windows.Forms.Padding(5);
             this.dgvCTTT.Name = "dgvCTTT";
-            this.dgvCTTT.Size = new System.Drawing.Size(612, 149);
+            this.dgvCTTT.Size = new System.Drawing.Size(612, 173);
             this.dgvCTTT.TabIndex = 9;
             this.dgvCTTT.Click += new System.EventHandler(this.dgvCTTT_Click);
             this.dgvCTTT.DoubleClick += new System.EventHandler(this.dgvCTTT_DoubleClick);
             // 
             // btnSua
             // 
-            this.btnSua.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSua.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnSua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSua.Location = new System.Drawing.Point(212, 330);
+            this.btnSua.Location = new System.Drawing.Point(559, 200);
             this.btnSua.Margin = new System.Windows.Forms.Padding(5);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(125, 33);
+            this.btnSua.Size = new System.Drawing.Size(67, 26);
             this.btnSua.TabIndex = 10;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
@@ -218,14 +219,14 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnXoa.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnXoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoa.Location = new System.Drawing.Point(350, 330);
+            this.btnXoa.Location = new System.Drawing.Point(559, 249);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(5);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(125, 33);
+            this.btnXoa.Size = new System.Drawing.Size(67, 26);
             this.btnXoa.TabIndex = 11;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -233,15 +234,15 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnThoat.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnThoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.Location = new System.Drawing.Point(485, 330);
+            this.btnThoat.Location = new System.Drawing.Point(559, 296);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(5);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(125, 33);
+            this.btnThoat.Size = new System.Drawing.Size(67, 26);
             this.btnThoat.TabIndex = 12;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -249,13 +250,14 @@
             // 
             // btnNhap
             // 
-            this.btnNhap.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnNhap.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnNhap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnNhap.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNhap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnNhap.Location = new System.Drawing.Point(281, 53);
             this.btnNhap.Name = "btnNhap";
-            this.btnNhap.Size = new System.Drawing.Size(85, 31);
+            this.btnNhap.Size = new System.Drawing.Size(72, 31);
             this.btnNhap.TabIndex = 2;
             this.btnNhap.Text = "Nhập";
             this.btnNhap.UseVisualStyleBackColor = false;
@@ -273,7 +275,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel1.Controls.Add(this.lblXemCTPK);
             this.panel1.Controls.Add(this.dtpNgaySinh);
             this.panel1.Controls.Add(this.lblNgayKham);
@@ -290,9 +292,9 @@
             this.panel1.Controls.Add(this.lblGioiTinh);
             this.panel1.Controls.Add(this.lblNgaySinh);
             this.panel1.Controls.Add(this.lblTenBN);
-            this.panel1.Location = new System.Drawing.Point(648, 9);
+            this.panel1.Location = new System.Drawing.Point(645, 9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(531, 514);
+            this.panel1.Size = new System.Drawing.Size(499, 514);
             this.panel1.TabIndex = 60;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -311,16 +313,16 @@
             this.dtpNgaySinh.CalendarFont = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgaySinh.Enabled = false;
             this.dtpNgaySinh.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpNgaySinh.Location = new System.Drawing.Point(194, 226);
+            this.dtpNgaySinh.Location = new System.Drawing.Point(168, 121);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
-            this.dtpNgaySinh.Size = new System.Drawing.Size(317, 30);
+            this.dtpNgaySinh.Size = new System.Drawing.Size(290, 30);
             this.dtpNgaySinh.TabIndex = 58;
             // 
             // lblNgayKham
             // 
             this.lblNgayKham.AutoSize = true;
             this.lblNgayKham.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayKham.Location = new System.Drawing.Point(34, 118);
+            this.lblNgayKham.Location = new System.Drawing.Point(34, 247);
             this.lblNgayKham.Name = "lblNgayKham";
             this.lblNgayKham.Size = new System.Drawing.Size(104, 19);
             this.lblNgayKham.TabIndex = 62;
@@ -331,7 +333,7 @@
             this.rdbNu.AutoSize = true;
             this.rdbNu.Enabled = false;
             this.rdbNu.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbNu.Location = new System.Drawing.Point(318, 280);
+            this.rdbNu.Location = new System.Drawing.Point(292, 174);
             this.rdbNu.Name = "rdbNu";
             this.rdbNu.Size = new System.Drawing.Size(52, 27);
             this.rdbNu.TabIndex = 56;
@@ -343,9 +345,9 @@
             this.dtpNgayKham.CustomFormat = "";
             this.dtpNgayKham.Enabled = false;
             this.dtpNgayKham.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpNgayKham.Location = new System.Drawing.Point(194, 115);
+            this.dtpNgayKham.Location = new System.Drawing.Point(168, 244);
             this.dtpNgayKham.Name = "dtpNgayKham";
-            this.dtpNgayKham.Size = new System.Drawing.Size(317, 30);
+            this.dtpNgayKham.Size = new System.Drawing.Size(290, 30);
             this.dtpNgayKham.TabIndex = 61;
             this.dtpNgayKham.ValueChanged += new System.EventHandler(this.dtpNgayKham_ValueChanged);
             // 
@@ -354,7 +356,7 @@
             this.rdbNam.AutoSize = true;
             this.rdbNam.Enabled = false;
             this.rdbNam.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbNam.Location = new System.Drawing.Point(194, 280);
+            this.rdbNam.Location = new System.Drawing.Point(168, 174);
             this.rdbNam.Name = "rdbNam";
             this.rdbNam.Size = new System.Drawing.Size(66, 27);
             this.rdbNam.TabIndex = 55;
@@ -363,38 +365,42 @@
             // 
             // txtChuanDoan
             // 
+            this.txtChuanDoan.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtChuanDoan.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtChuanDoan.Location = new System.Drawing.Point(194, 440);
+            this.txtChuanDoan.Location = new System.Drawing.Point(168, 425);
             this.txtChuanDoan.Name = "txtChuanDoan";
             this.txtChuanDoan.ReadOnly = true;
-            this.txtChuanDoan.Size = new System.Drawing.Size(317, 30);
+            this.txtChuanDoan.Size = new System.Drawing.Size(290, 30);
             this.txtChuanDoan.TabIndex = 54;
             // 
             // txtTrieuChung
             // 
+            this.txtTrieuChung.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtTrieuChung.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTrieuChung.Location = new System.Drawing.Point(194, 380);
+            this.txtTrieuChung.Location = new System.Drawing.Point(168, 364);
             this.txtTrieuChung.Name = "txtTrieuChung";
             this.txtTrieuChung.ReadOnly = true;
-            this.txtTrieuChung.Size = new System.Drawing.Size(317, 30);
+            this.txtTrieuChung.Size = new System.Drawing.Size(290, 30);
             this.txtTrieuChung.TabIndex = 53;
             // 
             // txtBacSiKham
             // 
+            this.txtBacSiKham.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtBacSiKham.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBacSiKham.Location = new System.Drawing.Point(194, 335);
+            this.txtBacSiKham.Location = new System.Drawing.Point(168, 302);
             this.txtBacSiKham.Name = "txtBacSiKham";
             this.txtBacSiKham.ReadOnly = true;
-            this.txtBacSiKham.Size = new System.Drawing.Size(317, 30);
+            this.txtBacSiKham.Size = new System.Drawing.Size(290, 30);
             this.txtBacSiKham.TabIndex = 52;
             // 
             // txtTenBN
             // 
+            this.txtTenBN.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtTenBN.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenBN.Location = new System.Drawing.Point(194, 173);
+            this.txtTenBN.Location = new System.Drawing.Point(168, 60);
             this.txtTenBN.Name = "txtTenBN";
             this.txtTenBN.ReadOnly = true;
-            this.txtTenBN.Size = new System.Drawing.Size(317, 30);
+            this.txtTenBN.Size = new System.Drawing.Size(290, 30);
             this.txtTenBN.TabIndex = 51;
             // 
             // lblChuanDoan
@@ -411,7 +417,7 @@
             // 
             this.lblTrieuChung.AutoSize = true;
             this.lblTrieuChung.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrieuChung.Location = new System.Drawing.Point(33, 380);
+            this.lblTrieuChung.Location = new System.Drawing.Point(33, 364);
             this.lblTrieuChung.Name = "lblTrieuChung";
             this.lblTrieuChung.Size = new System.Drawing.Size(105, 23);
             this.lblTrieuChung.TabIndex = 48;
@@ -421,7 +427,7 @@
             // 
             this.lblBacSiKham.AutoSize = true;
             this.lblBacSiKham.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBacSiKham.Location = new System.Drawing.Point(33, 335);
+            this.lblBacSiKham.Location = new System.Drawing.Point(33, 302);
             this.lblBacSiKham.Name = "lblBacSiKham";
             this.lblBacSiKham.Size = new System.Drawing.Size(105, 23);
             this.lblBacSiKham.TabIndex = 50;
@@ -431,7 +437,7 @@
             // 
             this.lblGioiTinh.AutoSize = true;
             this.lblGioiTinh.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGioiTinh.Location = new System.Drawing.Point(33, 280);
+            this.lblGioiTinh.Location = new System.Drawing.Point(33, 174);
             this.lblGioiTinh.Name = "lblGioiTinh";
             this.lblGioiTinh.Size = new System.Drawing.Size(80, 23);
             this.lblGioiTinh.TabIndex = 47;
@@ -441,7 +447,7 @@
             // 
             this.lblNgaySinh.AutoSize = true;
             this.lblNgaySinh.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgaySinh.Location = new System.Drawing.Point(33, 225);
+            this.lblNgaySinh.Location = new System.Drawing.Point(33, 120);
             this.lblNgaySinh.Name = "lblNgaySinh";
             this.lblNgaySinh.Size = new System.Drawing.Size(89, 23);
             this.lblNgaySinh.TabIndex = 46;
@@ -451,7 +457,7 @@
             // 
             this.lblTenBN.AutoSize = true;
             this.lblTenBN.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenBN.Location = new System.Drawing.Point(33, 173);
+            this.lblTenBN.Location = new System.Drawing.Point(33, 60);
             this.lblTenBN.Name = "lblTenBN";
             this.lblTenBN.Size = new System.Drawing.Size(126, 23);
             this.lblTenBN.TabIndex = 45;
@@ -464,7 +470,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnThoat;
-            this.ClientSize = new System.Drawing.Size(1191, 535);
+            this.ClientSize = new System.Drawing.Size(1156, 535);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnNhap);
@@ -518,7 +524,6 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnNhap;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
@@ -537,6 +542,7 @@
         private System.Windows.Forms.Label lblXemCTPK;
         private System.Windows.Forms.Label lblNgayKham;
         private System.Windows.Forms.DateTimePicker dtpNgayKham;
+        private System.Windows.Forms.Button btnNhap;
     }
 }
 

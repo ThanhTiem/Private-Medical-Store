@@ -293,7 +293,7 @@ VALUES (100000)
 --------------------------------------------------------------------------------------------------------------------------------
 
 
-
+GO
 CREATE PROC USP_DieuKienDangNhap
 @TenDangNhap nvarchar(100), @MatKhau nvarchar(100)
 As
@@ -304,6 +304,7 @@ BEGIN
 END
 --------------------------------------------------------------------------------------------------------------------------
 
+GO
 CREATE PROC USP_CapNhatThongTinNhanVien
 @MaNV int, @HoTen nvarchar(255), @TenDangNhap nvarchar(255) , @MatKhau nvarchar(255), @MKMoi nvarchar(255)
 as

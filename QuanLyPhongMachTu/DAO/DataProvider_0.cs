@@ -17,7 +17,7 @@ namespace DAO
 
         //private string connectionSTR = ConfigurationManager.AppSettings["ConnectionString"];//@"Data Source=DESKTOP-HLJNT2J\SQLEXPRESS;Initial Catalog=QLKB;Integrated Security=True";
 
-        private string connectionSTR = "Data Source=DESKTOP-5OKJGCO;Initial Catalog=QLKB;Integrated Security=True";
+        private string connectionSTR = "Data Source=DESKTOP-OD1HMPK;Initial Catalog=QLKB;Integrated Security=True";
 
         public static DataProvider_0 Instance
         {

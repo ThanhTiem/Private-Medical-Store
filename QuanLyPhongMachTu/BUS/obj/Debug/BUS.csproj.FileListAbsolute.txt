@@ -122,3 +122,19 @@ C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Deb
 C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.exe
 C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.pdb
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\BUS.exe.config
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\BUS.exe
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\BUS.pdb
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\DAO.exe
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\DTO.exe
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\DAO.pdb
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\DAO.exe.config
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\DTO.pdb
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\bin\Debug\DTO.exe.config
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.Properties.Resources.resources
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.exe
+D:\DHCNTT\HỌC KỲ 6\NMCNPM\DOANCUOIKY\Private-Medical-Store\Private-Medical-Store\QuanLyPhongMachTu\BUS\obj\Debug\BUS.pdb

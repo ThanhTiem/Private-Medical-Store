@@ -14,7 +14,8 @@ namespace DAO
         //ket noi
         public static SqlConnection KetNoi()
         {
-            string sChuoiKetNoi = ConfigurationManager.AppSettings["ConnectionString"]; ;
+            //string sChuoiKetNoi = ConfigurationManager.AppSettings["ConnectionString"];
+            string sChuoiKetNoi = "Data Source=DESKTOP-OD1HMPK;Initial Catalog=QLKB;Integrated Security=True";
             SqlConnection Con = new SqlConnection(sChuoiKetNoi);
             Con.Open();
             return Con;

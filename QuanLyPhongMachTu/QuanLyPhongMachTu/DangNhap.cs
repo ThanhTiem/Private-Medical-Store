@@ -54,7 +54,7 @@ namespace QuanLyPhongMachTu
             }
             else
             {
-                MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Mật khẩu hoặc tài khoản không đúng!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

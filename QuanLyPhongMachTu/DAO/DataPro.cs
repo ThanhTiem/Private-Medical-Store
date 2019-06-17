@@ -15,7 +15,7 @@ namespace DAO
         public DataPro()
         {
             //connectionSTR = ConfigurationManager.AppSettings["ConnectionString"];
-            connectionSTR = "Data Source=DESKTOP-5OKJGCO;Initial Catalog=QLKB;Integrated Security=True";
+            connectionSTR = "Data Source=DESKTOP-OD1HMPK;Initial Catalog=QLKB;Integrated Security=True";
         }
         public string ConnectionSTR
         {
