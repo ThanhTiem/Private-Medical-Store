@@ -106,3 +106,19 @@ D:\DHCNTT\HỌC KỲ 6\NMCNPM\DoAnNhomTVSN-master\DoAnNhomTVSN-master\WIP\Code\Q
 D:\DHCNTT\HỌC KỲ 6\NMCNPM\DoAnNhomTVSN-master\DoAnNhomTVSN-master\WIP\Code\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\DHCNTT\HỌC KỲ 6\NMCNPM\DoAnNhomTVSN-master\DoAnNhomTVSN-master\WIP\Code\QuanLyPhongMachTu\BUS\obj\Debug\BUS.exe
 D:\DHCNTT\HỌC KỲ 6\NMCNPM\DoAnNhomTVSN-master\DoAnNhomTVSN-master\WIP\Code\QuanLyPhongMachTu\BUS\obj\Debug\BUS.pdb
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\BUS.exe.config
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\BUS.exe
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\BUS.pdb
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\DAO.exe
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\DTO.exe
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\DAO.pdb
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\DAO.exe.config
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\DTO.pdb
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\bin\Debug\DTO.exe.config
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.Properties.Resources.resources
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.exe
+C:\Users\thinh\Source\Repos\Private-Medical-Store2\QuanLyPhongMachTu\BUS\obj\Debug\BUS.pdb
