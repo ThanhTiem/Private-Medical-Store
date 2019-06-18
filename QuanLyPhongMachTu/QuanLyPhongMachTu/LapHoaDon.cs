@@ -262,6 +262,32 @@ namespace QuanLyPhongMachTu
             }
         }
 
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+
+            LapHoaDonDTO a = new LapHoaDonDTO();
+            try
+            {
+                DataGridViewRow dr = dgvThongTinHoaDon.SelectedRows[0];
+                a.Mahd = int.Parse(dr.Cells["MaHD"].Value.ToString());
+                if (lhdBus.xoa(a) == false)
+                {
+                    MessageBox.Show("Xóa không thành công", "Thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Bạn đã xóa hóa đơn thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    loadHoaDon();
+                }
+            }
+
+            catch
+            {
+                MessageBox.Show("Bạn cần chọn mã hóa đơn cần xóa", "Thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+
+        }
         private void lblChiPhiThuoc_Click(object sender, EventArgs e)
         {
 
@@ -312,32 +338,6 @@ namespace QuanLyPhongMachTu
 
         }
 
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-
-            LapHoaDonDTO a = new LapHoaDonDTO();
-            try
-            {
-                DataGridViewRow dr = dgvThongTinHoaDon.SelectedRows[0];
-                a.Mahd = int.Parse(dr.Cells["MaHD"].Value.ToString());
-                if (lhdBus.xoa(a) == false)
-                {
-                    MessageBox.Show("Xóa không thành công", "Thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Bạn đã xóa hóa đơn thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    loadHoaDon();
-                }
-            }
-
-            catch
-            {
-                MessageBox.Show("Bạn cần chọn mã hóa đơn cần xóa", "Thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-
-
-        }
 
 
     }

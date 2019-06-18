@@ -167,6 +167,12 @@
     <EmbeddedResource Include="LapBaoCao.resx">
       <DependentUpon>LapBaoCao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LapHoaDon.resx">
+      <DependentUpon>LapHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuQuanLyKhamBenh.vi.resx">
+      <DependentUpon>MenuQuanLyKhamBenh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuyDinhTienKhamGUI.resx">
       <DependentUpon>QuyDinhTienKhamGUI.cs</DependentUpon>
     </EmbeddedResource>

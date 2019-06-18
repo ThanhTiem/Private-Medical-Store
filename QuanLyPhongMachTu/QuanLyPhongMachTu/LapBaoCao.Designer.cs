@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.BAOCAOBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.QLKBDataSet = new QuanLyPhongMachTu.QLKBDataSet();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.BAOCAOTableAdapter = new QuanLyPhongMachTu.QLKBDataSetTableAdapters.BAOCAOTableAdapter();
             this.lblLapBaoCao = new System.Windows.Forms.Label();
             this.lblThang = new System.Windows.Forms.Label();
@@ -45,18 +45,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.QLKBDataSet)).BeginInit();
             this.SuspendLayout();
             // 
-            // reportViewer1
-            // 
-            reportDataSource2.Name = "DataSet2";
-            reportDataSource2.Value = this.BAOCAOBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyPhongMachTu.BaoCao.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(7, 97);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(856, 288);
-            this.reportViewer1.TabIndex = 0;
-            // 
             // BAOCAOBindingSource
             // 
             this.BAOCAOBindingSource.DataMember = "BAOCAO";
@@ -67,6 +55,18 @@
             this.QLKBDataSet.DataSetName = "QLKBDataSet";
             this.QLKBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // reportViewer1
+            // 
+            reportDataSource1.Name = "DataSet2";
+            reportDataSource1.Value = this.BAOCAOBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyPhongMachTu.BaoCao.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(10, 119);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(673, 288);
+            this.reportViewer1.TabIndex = 0;
+            // 
             // BAOCAOTableAdapter
             // 
             this.BAOCAOTableAdapter.ClearBeforeFill = true;
@@ -74,18 +74,19 @@
             // lblLapBaoCao
             // 
             this.lblLapBaoCao.AutoSize = true;
-            this.lblLapBaoCao.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLapBaoCao.Location = new System.Drawing.Point(285, 0);
+            this.lblLapBaoCao.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLapBaoCao.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblLapBaoCao.Location = new System.Drawing.Point(201, 9);
             this.lblLapBaoCao.Name = "lblLapBaoCao";
-            this.lblLapBaoCao.Size = new System.Drawing.Size(232, 45);
+            this.lblLapBaoCao.Size = new System.Drawing.Size(265, 32);
             this.lblLapBaoCao.TabIndex = 1;
-            this.lblLapBaoCao.Text = "LẬP BÁO CÁO";
+            this.lblLapBaoCao.Text = "LẬP BÁO CÁO THÁNG";
             // 
             // lblThang
             // 
             this.lblThang.AutoSize = true;
             this.lblThang.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThang.Location = new System.Drawing.Point(31, 58);
+            this.lblThang.Location = new System.Drawing.Point(34, 80);
             this.lblThang.Name = "lblThang";
             this.lblThang.Size = new System.Drawing.Size(55, 17);
             this.lblThang.TabIndex = 2;
@@ -95,7 +96,7 @@
             // 
             this.lblNam.AutoSize = true;
             this.lblNam.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNam.Location = new System.Drawing.Point(312, 58);
+            this.lblNam.Location = new System.Drawing.Point(234, 80);
             this.lblNam.Name = "lblNam";
             this.lblNam.Size = new System.Drawing.Size(45, 17);
             this.lblNam.TabIndex = 3;
@@ -103,24 +104,24 @@
             // 
             // txtThang
             // 
-            this.txtThang.Location = new System.Drawing.Point(114, 58);
+            this.txtThang.Location = new System.Drawing.Point(95, 80);
             this.txtThang.Name = "txtThang";
             this.txtThang.Size = new System.Drawing.Size(100, 20);
             this.txtThang.TabIndex = 1;
             // 
             // txtNam
             // 
-            this.txtNam.Location = new System.Drawing.Point(467, 58);
+            this.txtNam.Location = new System.Drawing.Point(305, 80);
             this.txtNam.Name = "txtNam";
             this.txtNam.Size = new System.Drawing.Size(100, 20);
             this.txtNam.TabIndex = 2;
             // 
             // btnNhap
             // 
-            this.btnNhap.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnNhap.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnNhap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.btnNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNhap.Location = new System.Drawing.Point(647, 53);
+            this.btnNhap.Location = new System.Drawing.Point(477, 80);
             this.btnNhap.Name = "btnNhap";
             this.btnNhap.Size = new System.Drawing.Size(75, 23);
             this.btnNhap.TabIndex = 3;
@@ -130,11 +131,11 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnThoat.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.Location = new System.Drawing.Point(347, 403);
+            this.btnThoat.Location = new System.Drawing.Point(608, 80);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
             this.btnThoat.TabIndex = 4;
@@ -148,7 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnThoat;
-            this.ClientSize = new System.Drawing.Size(870, 450);
+            this.ClientSize = new System.Drawing.Size(699, 417);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnNhap);
             this.Controls.Add(this.txtNam);
