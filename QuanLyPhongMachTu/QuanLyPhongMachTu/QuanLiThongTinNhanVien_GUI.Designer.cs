@@ -182,12 +182,12 @@
             this.button_Thoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Thoat.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Thoat.Location = new System.Drawing.Point(282, 8);
+            this.button_Thoat.Location = new System.Drawing.Point(275, 8);
             this.button_Thoat.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button_Thoat.Name = "button_Thoat";
-            this.button_Thoat.Size = new System.Drawing.Size(70, 34);
+            this.button_Thoat.Size = new System.Drawing.Size(77, 34);
             this.button_Thoat.TabIndex = 6;
-            this.button_Thoat.Text = "Thoát";
+            this.button_Thoat.Text = "Trở lại";
             this.button_Thoat.UseVisualStyleBackColor = false;
             this.button_Thoat.Click += new System.EventHandler(this.button_Thoat_Click);
             // 
@@ -237,7 +237,7 @@
             this.dgv_ThongTinBacSi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dgv_ThongTinBacSi.Name = "dgv_ThongTinBacSi";
             this.dgv_ThongTinBacSi.RowHeadersWidth = 100;
-            this.dgv_ThongTinBacSi.Size = new System.Drawing.Size(633, 242);
+            this.dgv_ThongTinBacSi.Size = new System.Drawing.Size(454, 242);
             this.dgv_ThongTinBacSi.TabIndex = 4;
             this.dgv_ThongTinBacSi.TabStop = false;
             this.dgv_ThongTinBacSi.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ThongTinBacSi_CellClick);
@@ -247,12 +247,12 @@
             this.lb_QuanLyThongTinBacSy.AutoSize = true;
             this.lb_QuanLyThongTinBacSy.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_QuanLyThongTinBacSy.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lb_QuanLyThongTinBacSy.Location = new System.Drawing.Point(335, 9);
+            this.lb_QuanLyThongTinBacSy.Location = new System.Drawing.Point(252, 9);
             this.lb_QuanLyThongTinBacSy.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_QuanLyThongTinBacSy.Name = "lb_QuanLyThongTinBacSy";
-            this.lb_QuanLyThongTinBacSy.Size = new System.Drawing.Size(359, 25);
+            this.lb_QuanLyThongTinBacSy.Size = new System.Drawing.Size(401, 25);
             this.lb_QuanLyThongTinBacSy.TabIndex = 5;
-            this.lb_QuanLyThongTinBacSy.Text = "Quản Lý Thông Tin Nhân Viên";
+            this.lb_QuanLyThongTinBacSy.Text = "QUẢN LÝ THÔNG TIN NHÂN VIÊN";
             // 
             // panel2
             // 
@@ -285,15 +285,15 @@
             this.lb_PhanQuyen.Location = new System.Drawing.Point(5, 27);
             this.lb_PhanQuyen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_PhanQuyen.Name = "lb_PhanQuyen";
-            this.lb_PhanQuyen.Size = new System.Drawing.Size(106, 18);
+            this.lb_PhanQuyen.Size = new System.Drawing.Size(103, 18);
             this.lb_PhanQuyen.TabIndex = 3;
-            this.lb_PhanQuyen.Text = "Phân Quyền";
+            this.lb_PhanQuyen.Text = "Phân quyền";
             // 
             // rbt_Loai1
             // 
             this.rbt_Loai1.AutoSize = true;
             this.rbt_Loai1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbt_Loai1.Location = new System.Drawing.Point(171, 27);
+            this.rbt_Loai1.Location = new System.Drawing.Point(139, 27);
             this.rbt_Loai1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rbt_Loai1.Name = "rbt_Loai1";
             this.rbt_Loai1.Size = new System.Drawing.Size(80, 20);
@@ -306,7 +306,7 @@
             // 
             this.rbt_Loai2.AutoSize = true;
             this.rbt_Loai2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbt_Loai2.Location = new System.Drawing.Point(336, 27);
+            this.rbt_Loai2.Location = new System.Drawing.Point(250, 27);
             this.rbt_Loai2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rbt_Loai2.Name = "rbt_Loai2";
             this.rbt_Loai2.Size = new System.Drawing.Size(72, 20);
@@ -319,7 +319,7 @@
             // 
             this.rbt_Loai3.AutoSize = true;
             this.rbt_Loai3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbt_Loai3.Location = new System.Drawing.Point(488, 27);
+            this.rbt_Loai3.Location = new System.Drawing.Point(362, 27);
             this.rbt_Loai3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rbt_Loai3.Name = "rbt_Loai3";
             this.rbt_Loai3.Size = new System.Drawing.Size(92, 20);
@@ -337,7 +337,7 @@
             this.panel5.Location = new System.Drawing.Point(403, 59);
             this.panel5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(633, 64);
+            this.panel5.Size = new System.Drawing.Size(454, 64);
             this.panel5.TabIndex = 5;
             // 
             // QuanLiThongTinNhanVien_GUI
@@ -345,7 +345,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1045, 407);
+            this.ClientSize = new System.Drawing.Size(879, 407);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.lb_QuanLyThongTinBacSy);
             this.Controls.Add(this.dgv_ThongTinBacSi);

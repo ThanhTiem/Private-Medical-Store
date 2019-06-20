@@ -67,10 +67,6 @@ namespace QuanLyPhongMachTu
                 {
                     rbt_Loai3.Checked = true;
                 }
-                else
-                {
-                    rbt_Loai4.Checked = true;
-                }
 
             }
             catch { return; }

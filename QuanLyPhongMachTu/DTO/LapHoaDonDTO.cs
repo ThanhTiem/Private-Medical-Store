@@ -23,53 +23,113 @@ namespace DTO
 
         public int Mapk
         {
-            get { return mapk; }
-            set { mapk = value; }
+            get
+            {
+                return mapk;
+            }
+            set
+            {
+                mapk = value;
+            }
         }
         public string Tenbn
         {
-            get { return tenbn; }
-            set { tenbn = value; }
+            get
+            {
+                return tenbn;
+            }
+            set
+            {
+                tenbn = value;
+            }
         }
         public int Mahd
         {
-            get { return mahd; }
-            set { mahd = value; }
+            get
+            {
+                return mahd;
+            }
+            set
+            {
+                mahd = value;
+            }
         }
         public float Chiphikham
         {
-            get { return chiphikham; }
-            set { chiphikham = value; }
+            get
+            {
+                return chiphikham;
+            }
+            set
+            {
+                chiphikham = value;
+            }
         }
         public float Chiphithuoc
         {
-            get { return chiphithuoc; }
-            set { chiphithuoc = value; }
+            get
+            {
+                return chiphithuoc;
+            }
+            set
+            {
+                chiphithuoc = value;
+            }
         }
         public float Tongtien
         {
-            get { return tongtien; }
-            set { tongtien = value; }
+            get
+            {
+                return tongtien;
+            }
+            set
+            {
+                tongtien = value;
+            }
         }
         public string Tenthuoc
         {
-            get { return tenthuoc; }
-            set { tenthuoc = value; }
+            get
+            {
+                return tenthuoc;
+            }
+            set
+            {
+                tenthuoc = value;
+            }
         }
         public int Soluong
         {
-            get { return soluong; }
-            set { soluong = value; }
+            get
+            {
+                return soluong;
+            }
+            set
+            {
+                soluong = value;
+            }
         }
         public string Donvitinh
         {
-            get { return donvitinh; }
-            set { donvitinh = value; }
+            get
+            {
+                return donvitinh;
+            }
+            set
+            {
+                donvitinh = value;
+            }
         }
         public float Dongia
         {
-            get { return dongia; }
-            set { dongia = value; }
+            get
+            {
+                return dongia;
+            }
+            set
+            {
+                dongia = value;
+            }
         }
     }
 }

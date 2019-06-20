@@ -137,7 +137,7 @@ namespace DAO
         public NHANVIEN LayThongTinNhanVien(int MaNV)
         {
             DataTable data = DataProvider_0.Instance.ExecuteQuery("Select * from NHANVIEN where MaNV = 'MaNV')");
-            int i = 0;
+            int i;
             for (i = 0; i < data.Rows.Count; ++ i)
 
             {

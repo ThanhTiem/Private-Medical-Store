@@ -16,7 +16,7 @@ namespace DAO
         public KiemTraHoSoBenhAnDAO()
         {
             //connectionString = ConfigurationManager.AppSettings["ConnectionString"];
-            connectionString = "Data Source=DESKTOP-OD1HMPK;Initial Catalog=QLKB;Integrated Security=True";
+            connectionString = "Data Source=DESKTOP-OD1HMPK\\SQLEXPRESS;Initial Catalog=QLKB;Integrated Security=True";
         }
         public string ConnectionString
         {

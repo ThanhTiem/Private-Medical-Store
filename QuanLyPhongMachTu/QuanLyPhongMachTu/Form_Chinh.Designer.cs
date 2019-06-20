@@ -81,7 +81,7 @@
             this.menuStrip_MeNu.Location = new System.Drawing.Point(0, 0);
             this.menuStrip_MeNu.Name = "menuStrip_MeNu";
             this.menuStrip_MeNu.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip_MeNu.Size = new System.Drawing.Size(478, 29);
+            this.menuStrip_MeNu.Size = new System.Drawing.Size(510, 29);
             this.menuStrip_MeNu.TabIndex = 0;
             this.menuStrip_MeNu.Text = "menuStrip1";
             // 
@@ -291,7 +291,7 @@
             this.button_QuanLyKhamBenh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_QuanLyKhamBenh.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_QuanLyKhamBenh.ForeColor = System.Drawing.Color.Black;
-            this.button_QuanLyKhamBenh.Location = new System.Drawing.Point(276, 423);
+            this.button_QuanLyKhamBenh.Location = new System.Drawing.Point(278, 423);
             this.button_QuanLyKhamBenh.Name = "button_QuanLyKhamBenh";
             this.button_QuanLyKhamBenh.Size = new System.Drawing.Size(129, 47);
             this.button_QuanLyKhamBenh.TabIndex = 2;
@@ -386,7 +386,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(478, 496);
+            this.ClientSize = new System.Drawing.Size(510, 496);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
